@@ -213,9 +213,9 @@ h4 { font-size: 1rem; }
 .team-member-info > p { color: var(--color-text-light); margin-bottom: 16px; }
 .credentials-section { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--color-border); }
 .credentials-section h3 { font-size: 1.1rem; margin-bottom: 16px; }
-.credentials-section ul { margin-left: 20px; }
-.credentials-section li { padding: 6px 0; color: var(--color-text-light); list-style: disc; }
-.specialties-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-left: 20px; }
+.credentials-section ul { padding-left: 24px; list-style: disc; list-style-position: outside; }
+.credentials-section li { padding: 6px 0; color: var(--color-text-light); }
+.specialties-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding-left: 24px; list-style: disc; list-style-position: outside; }
 
 .team-member-card-section { padding: 64px 0; }
 .team-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 400px)); gap: 32px; justify-content: center; }
@@ -236,8 +236,8 @@ h4 { font-size: 1rem; }
 .featured-service h2 { margin-bottom: 16px; }
 .featured-service p { color: var(--color-text-light); margin-bottom: 16px; }
 .featured-service h3 { margin: 24px 0 16px; font-size: 1.1rem; }
-.featured-service ul { margin-left: 24px; margin-bottom: 24px; }
-.featured-service li { padding: 6px 0; color: var(--color-text-light); list-style: disc; }
+.featured-service ul { padding-left: 24px; margin-bottom: 24px; list-style: disc; list-style-position: outside; }
+.featured-service li { padding: 6px 0; color: var(--color-text-light); }
 
 .services-grid-section { padding: 80px 0; }
 .services-full-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
@@ -262,8 +262,8 @@ h4 { font-size: 1rem; }
 .service-main h2:first-child { margin-top: 0; }
 .service-main h3 { margin: 24px 0 12px; font-size: 1.2rem; }
 .service-main p { color: var(--color-text-light); margin-bottom: 16px; }
-.service-main ul { margin: 16px 0 24px 24px; }
-.service-main li { padding: 6px 0; color: var(--color-text-light); list-style: disc; }
+.service-main ul { margin: 16px 0 24px; padding-left: 24px; list-style: disc; list-style-position: outside; }
+.service-main li { padding: 6px 0; color: var(--color-text-light); }
 .benefits-list li { margin-bottom: 8px; }
 
 .service-sidebar { position: sticky; top: 96px; }
